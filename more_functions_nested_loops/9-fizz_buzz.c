@@ -3,7 +3,7 @@
 /**
  * main - function that prints the FizzBuzz sequence from 1 to 100.
  *
- * Return: always 0 (successful)
+ * Return: Always 0 (successful)
  */
 
 int main(void)
@@ -16,20 +16,23 @@ int main(void)
 		{
 			printf("FizzBuzz ");
 		}
+
 		else if (i % 3 == 0)
 		{
 			printf("Fizz ");
 		}
+
 		else if (i % 5 == 0)
 		{
 			printf("Buzz ");
 		}
+
 		else
 		{
 			printf("%d ", i);
 		}
 	}
-	printf("\n");
+	/**printf("\n");*/
 
 	return (0);
 }
