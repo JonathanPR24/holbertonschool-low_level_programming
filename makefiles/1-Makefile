@@ -1,2 +1,5 @@
 cc= gcc main.c school.c -o school
-crc
+src=.c
+
+all:main.c school.c
+	$(cc)
