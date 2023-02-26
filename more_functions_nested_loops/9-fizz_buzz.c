@@ -6,8 +6,6 @@
  * Return: Always 0 (successful)
  */
 
-#include <stdio.h>
-
 int main(void)
 {
 	int num = 1;
@@ -28,11 +26,11 @@ int main(void)
 		}
 		else
 		{
-			printf("%d ", num);
+			printf("%d", num);
 		}
 		if (num != 100)
 		{
-			putchar(' ');
+			printf(" ");
 		}
 
 		num++;
@@ -40,6 +38,5 @@ int main(void)
 
 	printf("\n");
 
-	return 0;
+	return (0);
 }
-
